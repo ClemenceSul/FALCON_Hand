@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALCON Hand</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="./index.html" class="home-icon">
+            <i class="fas fa-home"></i>
+        </a>
+    </div>
+    <div class="content">
+        <div class="main-title">
+            <h1 id="page_name">FALCON Hand > Practice</h1>
+            <div class="toggle-container" style="opacity: 0;">
+                <button class="toggle-button" id="toggleOption1">Digital Images</button>
+                <button class="toggle-button" id="toggleOption2">Real-life Images</button>
+            </div>
+        </div>
+        <div class="tabs" id="metacarpal">
+            <button class="tab-button active" onclick="practiceTab(this)" id="tab1">
+                <div class="tab-title">Part 1</div>
+                <div class="tab-subtitle">Inserts</div>
+                <!-- <canvas id="chart1" class="tab-chart"></canvas> -->
+            </button>
+            <button class="tab-button" onclick="practiceTab(this)" id="tab2">
+                <div class="tab-title">Part 2</div>
+                <div class="tab-subtitle">Potentiometer Placing</div>
+            </button>
+        </div>
+        <div class="content-box-large">
+            <div id="myVideo">
+                <video width="960" height="540" controls>
+                    <source src="./Guide_Images/0_Practice/Insert.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function practiceTab(button) {
+            const stepVideo = document.getElementById("myVideo");
+            var tabButtons = document.querySelectorAll('.tab-button');
+            const data = button.id;
+
+            // Remove 'active' class from all tab buttons
+            tabButtons.forEach(function(button) {
+                button.classList.remove('active');
+            });
+            button.classList.add('active');
+
+            if (data == 'tab1') { // insert
+                stepVideo.innerHTML = `
+                    <video width="960" height="540" controls>
+                        <source src="./Guide_Images/0_Practice/Insert.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                `;
+            } else if (data == 'tab2') { // pot placing
+                stepVideo.innerHTML = `
+                    <video width="960" height="540" controls>
+                        <source src="./Guide_Images/0_Practice/Potentiometer.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                `;
+            }
+        }
+    </script>
+
+</body>
+</html>

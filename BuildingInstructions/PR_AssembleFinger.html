@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALCON Hand</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="./index.html" class="home-icon">
+            <i class="fas fa-home"></i>
+        </a>
+    </div>
+    <div class="content">
+        <div class="main-title">
+            <h1 id="page_name">FALCON Hand</h1>
+            <div class="toggle-container">
+                <button class="toggle-button" id="toggleOption1">Digital Images</button>
+                <button class="toggle-button" id="toggleOption2">Real-life Images</button>
+            </div>
+        </div>
+        <div class="tabs" id="assemble">
+            <button class="tab-button active" onclick="showTabContent(this)" id="tab1">
+                <div class="tab-title">Part 1</div>
+                <div class="tab-subtitle">Assemble Components</div>
+            </button>
+            <button class="tab-button" onclick="showTabContent(this)" id="tab2">
+                <div class="tab-title">Part 2</div>
+                <div class="tab-subtitle">Tendon Routing</div>
+            </button>
+            <button class="tab-button" onclick="showTabContent(this)" id="tab3">
+                <div class="tab-title">Part 3</div>
+                <div class="tab-subtitle">Fingertip Padding</div>
+            </button>
+        </div>
+        <div class="content-box-large">
+            <div class="carousel">
+                <button class="carousel-button prev" onclick="changeSlide(-1)">&#10094;</button>
+                <div class="carousel-slides" id="step-slides">
+                </div>
+                <button class="carousel-button next" onclick="changeSlide(1)">&#10095;</button>
+                <div class="carousel-dots" id="carousel_dots">
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="tabs_content.js"></script>
+    <script>
+        function getQueryParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        const source = getQueryParameter('source');
+        const title = document.getElementById("page_name");
+        if (source == "L") {
+            title.textContent = 'FALCON Hand > Little Finger > Assemble Finger';
+        } else if (source == "R") {
+            title.textContent = 'FALCON Hand > Ring Finger > Assemble Finger';
+        } else if (source == "M") {
+            title.textContent = 'FALCON Hand > Middle Finger > Assemble Finger';
+        } else if (source == "I") {
+            title.textContent = 'FALCON Hand > Index Finger > Assemble Finger';
+        }
+
+    </script>
+
+
+</body>
+</html>

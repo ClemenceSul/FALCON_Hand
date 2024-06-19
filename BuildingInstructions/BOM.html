@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALCON Hand Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body style="overflow-y: scroll;">
+    <div class="sidebar">
+        <a href="./index.html" class="home-icon">
+            <i class="fas fa-home"></i>
+        </a>
+    </div>
+    <div class="content">
+        <div class="main-title">
+            <h1>FALCON Hand > Bill of Materials</h1>
+            <!-- TODO Fill the BOM printing time -->
+            <!-- FIXME Spacing -->
+            <div class="toggle-container" style="opacity: 0;">
+                <button class="toggle-button active" id="toggleOption1">Digital Images</button>
+                <button class="toggle-button" id="toggleOption2">Real-life Images</button>
+            </div>
+        </div>
+        <h2 class="section-title" style="margin-bottom: 2rem;">To buy (total = £253.03)</h2>
+        <div class="BOM_list" style="width: 100%;">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Acquired?</th>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Cost per item</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-order="0">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Microcontroller</td>
+                        <td>Arduino Mega 2560</td>
+                        <td>1</td>
+                        <td>£15.59</td>
+                        <td>£15.59</td>
+                    </tr>
+                    <tr data-order="1">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Micro Servo Motors</td>
+                        <td>ES08MAII Servo Motor</td>
+                        <td>10</td>
+                        <td>£7.09</td>
+                        <td>£70.90</td>
+                    </tr>
+                    <tr data-order="2">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>DC Motors</td>
+                        <td>6V 30RPM DC motor with mini gear box</td>
+                        <td>6</td>
+                        <td>£6.50</td>
+                        <td>£39.00</td>
+                    </tr>
+                    <tr data-order="3">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>DC Motor Driver</td>
+                        <td>L293D drivers</td>
+                        <td>3</td>
+                        <td>£7.29 (pack of 10)</td>
+                        <td>£7.29</td>
+                    </tr>
+                    <tr data-order="4">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Potentiometers</td>
+                        <td>Variable Resistors 6mm potentiometers</td>
+                        <td>1</td>
+                        <td>£9.99 (kit)</td>
+                        <td>£9.99</td>
+                    </tr>
+                    <tr data-order="5">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>ADC Module</td>
+                        <td>4-channel ADC module</td>
+                        <td>4</td>
+                        <td>£4.99</td>
+                        <td>£4.99</td>
+                    </tr>
+                    <tr data-order="6">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Electric Wires</td>
+                        <td>Coloured Insulated Wires, 0.55 diameter</td>
+                        <td>1</td>
+                        <td>£7.99</td>
+                        <td>£7.99</td>
+                    </tr>
+                    <tr data-order="7">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>PLA Filament</td>
+                        <td>White filament 1.75mm</td>
+                        <td>1</td>
+                        <td>£14.99</td>
+                        <td>£14.99</td>
+                    </tr>
+                    <tr data-order="8">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Fishing Line</td>
+                        <td>8 strands braided fishing line, 80 LB</td>
+                        <td>1</td>
+                        <td>£9.46</td>
+                        <td>£9.46</td>
+                    </tr>
+                    <tr data-order="9">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Fishing Line</td>
+                        <td>8 strands braided fishing line, 80 LB</td>
+                        <td>1</td>
+                        <td>£9.46</td>
+                        <td>£9.46</td>
+                    </tr>
+                    <tr data-order="10">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Bearing</td>
+                        <td>2mm x 6mm x 3mm</td>
+                        <td>5</td>
+                        <td>£9.49 (pack of 10)</td>
+                        <td>£9.49</td>
+                    </tr>
+                    <tr data-order="11">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Metal Dowel Pins</td>
+                        <td>Stainless Steel, 15mm long, 2mm diameter</td>
+                        <td>50</td>
+                        <td>£5.49 (pack of 100)</td>
+                        <td>£5.49</td>
+                    </tr>
+                    <tr data-order="12">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>M2 Inserts</td>
+                        <td>Brass inserts</td>
+                        <td>21</td>
+                        <td>£5.99 (pack of 100)</td>
+                        <td>£5.99</td>
+                    </tr>
+                    <tr data-order="13">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>M2 Screws</td>
+                        <td>Various lengths are needed</td>
+                        <td>42</td>
+                        <td>£5.99 (kit)</td>
+                        <td>£5.99</td>
+                    </tr>
+                    <tr data-order="14">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Foam</td>
+                        <td>3mm thick foam</td>
+                        <td>1</td>
+                        <td>£7.99</td>
+                        <td>£7.99</td>
+                    </tr>
+                    <tr data-order="15">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Fabric tape</td>
+                        <td>Anti-slip grip tape</td>
+                        <td>1</td>
+                        <td>£6.99</td>
+                        <td>£6.99</td>
+                    </tr>
+                    <tr data-order="16">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable')"></td>
+                        <td>Silicone Tape</td>
+                        <td>Silicone self fusing tape</td>
+                        <td>1</td>
+                        <td>£6.93</td>
+                        <td>£6.93</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2 class="section-title" style="margin-bottom: 2rem;">To print</h2>
+        <p>These pieces have been printed with PLA. If you are just getting started with 3D printing, have a look at this <a href="https://all3dp.com/2/3d-printing-for-beginners-all-you-need-to-know-to-get-started/" class="link" target="_blank">guide</a>.</p>
+        <div class="BOM_list" style="width: 100%;">
+            <table id="dataTable2">
+                <thead>
+                    <tr>
+                        <th>Printed?</th>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Infill</th>
+                        <th>Quantity of material</th>
+                        <th>Print Length</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-order="0">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Practice Piece</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>2g</td>
+                        <td>11 min</td>
+                    </tr>
+                    <tr data-order="1">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > Fingertip</td>
+                        <td>4</td>
+                        <td>20%</td>
+                        <td>2g</td>
+                        <td>15 min</td>
+                    </tr>
+                    <tr data-order="2">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > MedialLeft</td>
+                        <td>4</td>
+                        <td>20%</td>
+                        <td>2g</td>
+                        <td>14 min</td>
+                    </tr>
+                    <tr data-order="3">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > MedialRight</td>
+                        <td>4</td>
+                        <td>20%</td>
+                        <td>1g</td>
+                        <td>10 min</td>
+                    </tr>
+                    <tr data-order="4">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > PR_ProximalLeft</td>
+                        <td>3</td>
+                        <td>20%</td>
+                        <td>4g</td>
+                        <td>31 min</td>
+                    </tr>
+                    <tr data-order="5">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > PR_ProximalRight</td>
+                        <td>3</td>
+                        <td>20%</td>
+                        <td>3g</td>
+                        <td>24 min</td>
+                    </tr>
+                    <tr data-order="6">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > MI_ProximalLeft</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>4g</td>
+                        <td>31 min</td>
+                    </tr>
+                    <tr data-order="7">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > MI_ProximalRight</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>3g</td>
+                        <td>23 min</td>
+                    </tr>
+                    <tr data-order="8">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > PR_Metacarpal</td>
+                        <td>3</td>
+                        <td>40%</td>
+                        <td>2g</td>
+                        <td>18 min</td>
+                    </tr>
+                    <tr data-order="9">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > PR_MetacarpalBranch</td>
+                        <td>3</td>
+                        <td>40%</td>
+                        <td>1g</td>
+                        <td>7 min</td>
+                    </tr>
+                    <tr data-order="10">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > MI_Metacarpal</td>
+                        <td>1</td>
+                        <td>40%</td>
+                        <td>2g</td>
+                        <td>18 min</td>
+                    </tr>
+                    <tr data-order="11">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > MI_MetacarpalBranch</td>
+                        <td>1</td>
+                        <td>40%</td>
+                        <td>1g</td>
+                        <td>7 min</td>
+                    </tr>
+                    <tr data-order="12">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > Pulley Spool</td>
+                        <td>5</td>
+                        <td>80%</td>
+                        <td>0g</td>
+                        <td>1 min</td>
+                    </tr>
+                    <tr data-order="13">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Fingers > Motor Spool</td>
+                        <td>6</td>
+                        <td>80%</td>
+                        <td>0g</td>
+                        <td>1 min</td>
+                    </tr>
+                    <tr data-order="14">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Thumb > Fingertip</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="15">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Thumb > MedialLeft</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="16">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Thumb > MedialLeft</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="17">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Thumb > ProximalLeft</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="18">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Thumb > ProximalRight</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="19">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Thumb > CMC1</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="20">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Thumb > CMC2</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="21">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Thumb > CMC_attach</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="22">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Palm</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="23">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>IndexSupport</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="24">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>MiddleSupport</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="25">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>RingSupport</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="26">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>PinkySupport</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="27">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Front Cover</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr data-order="28">
+                        <td><input type="checkbox" value="yes" onchange="resortTable('dataTable2')"></td>
+                        <td>Cable attachments?</td>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function resortTable(tableName) {
+            var table = document.getElementById(tableName);
+            var tbody = table.tBodies[0];
+            var rows = Array.from(tbody.rows);
+
+            rows.sort(function(rowA, rowB) {
+                var checkboxA = rowA.querySelector('input[type="checkbox"]').checked;
+                var checkboxB = rowB.querySelector('input[type="checkbox"]').checked;
+                var orderA = rowA.getAttribute('data-order');
+                var orderB = rowB.getAttribute('data-order');
+
+                if (checkboxA !== checkboxB) {
+                    return checkboxA - checkboxB;
+                } else {
+                    return orderA - orderB;
+                }
+            });
+
+            // Append rows in sorted order
+            rows.forEach(function(row) {
+                tbody.appendChild(row);
+            });
+        }
+    </script>
+</body>
+</html>
