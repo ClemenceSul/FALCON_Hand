@@ -36,10 +36,7 @@
         </div>
         <div class="content-box-large">
             <div id="myVideo">
-                <video width="960" height="540" controls>
-                    <source src="./Guide_Images/0_Practice/Insert.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <iframe width="960" height="540" src="https://www.youtube.com/embed/_HeSsrBQk-I?si=fZXqpmbuaoH1sKET" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -58,17 +55,11 @@
 
             if (data == 'tab1') { // insert
                 stepVideo.innerHTML = `
-                    <video width="960" height="540" controls>
-                        <source src="./Guide_Images/0_Practice/Insert.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <iframe width="960" height="540" src="https://www.youtube.com/embed/_HeSsrBQk-I?si=fZXqpmbuaoH1sKET" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 `;
             } else if (data == 'tab2') { // pot placing
                 stepVideo.innerHTML = `
-                    <video width="960" height="540" controls>
-                        <source src="./Guide_Images/0_Practice/Potentiometer.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <iframe width="960" height="540" src="https://www.youtube.com/embed/ZR9hlhxl_NM?si=zb1Z_qCTvAXtDk8P" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 `;
             }
         }
