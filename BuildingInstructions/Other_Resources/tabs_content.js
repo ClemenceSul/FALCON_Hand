@@ -2,16 +2,16 @@ const database = {
     "prep": {
         "tab1": {   //fingertip
             "digital": [
-                "./Guide_Images/1_PrepPieces/Fingertip/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Digital/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Digital/Slide4.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Digital/Slide5.PNG"
+                "../Guide_Images/1_PrepPieces/Fingertip/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Digital/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Digital/Slide4.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Digital/Slide5.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/Fingertip/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Real/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Real/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Fingertip/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Real/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Real/Slide4.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -22,23 +22,23 @@ const database = {
         },
         "tab2": {   //medial right
             "digital": [
-                "./Guide_Images/1_PrepPieces/MedialRight/Digital/doc.PNG"
+                "../Guide_Images/1_PrepPieces/MedialRight/Digital/doc.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/MedialRight/Real/Slide5.PNG"
+                "../Guide_Images/1_PrepPieces/MedialRight/Real/Slide5.PNG"
             ],
             "text": ["File to remove small irregularities."]
         },
         "tab3": {   //medial left
             "digital": [
-                "./Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide3.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/MedialLeft/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft/Real/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/MedialLeft/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft/Real/Slide3.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -48,14 +48,14 @@ const database = {
         },
         "tab4": {   //proximal right
             "digital": [
-                "./Guide_Images/1_PrepPieces/ProximalRight/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalRight/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalRight/Digital/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalRight/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight/Digital/Slide3.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/ProximalRight/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalRight/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalRight/Real/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalRight/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight/Real/Slide3.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -65,16 +65,16 @@ const database = {
         },
         "tab5": {   //proximal left
             "digital": [
-                "./Guide_Images/1_PrepPieces/ProximalLeft/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft/Digital/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft/Digital/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalLeft/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft/Digital/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft/Digital/Slide4.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/ProximalLeft/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft/Real/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft/Real/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalLeft/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft/Real/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft/Real/Slide4.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -85,37 +85,37 @@ const database = {
         },
         "tab6": {   //pulley
             "digital": [
-                "./Guide_Images/1_PrepPieces/Pulley/Digital/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Pulley/Digital/Slide4.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/Pulley/Real/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Pulley/Real/Slide4.PNG"
             ],
             "text": ["Push bearing in the spool."]
         },
         "tab7": {   //DC motor
             "digital": [
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide4.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide5.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide6.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide7.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide8.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide9.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide10.PNG"
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide4.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide5.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide6.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide7.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide8.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide9.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide10.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide4.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide5.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide6.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide7.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide8.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide9.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide10.PNG"
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide4.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide5.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide6.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide7.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide8.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide9.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide10.PNG"
             ],
             "text": [
                 "Cut the tendon to obtain a 25cmm long piece.",
@@ -134,16 +134,16 @@ const database = {
     "I_prep": {
         "tab1": {   //fingertip
             "digital": [
-                "./Guide_Images/1_PrepPieces/Fingertip/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Digital/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Digital/Slide4.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Digital/Slide5.PNG"
+                "../Guide_Images/1_PrepPieces/Fingertip/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Digital/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Digital/Slide4.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Digital/Slide5.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/Fingertip/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Real/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip/Real/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Fingertip/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Real/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip/Real/Slide4.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -154,23 +154,23 @@ const database = {
         },
         "tab2": {   //medial right
             "digital": [
-                "./Guide_Images/1_PrepPieces/MedialRight/Digital/doc.PNG"
+                "../Guide_Images/1_PrepPieces/MedialRight/Digital/doc.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/MedialRight/Real/Slide5.PNG"
+                "../Guide_Images/1_PrepPieces/MedialRight/Real/Slide5.PNG"
             ],
             "text": ["File to remove small irregularities."]
         },
         "tab3": {   //medial left
             "digital": [
-                "./Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft/Digital/Slide3.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/MedialLeft/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft/Real/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/MedialLeft/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft/Real/Slide3.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -180,14 +180,14 @@ const database = {
         },
         "tab4": {   //proximal right
             "digital": [
-                "./Guide_Images/1_PrepPieces/ProximalRight_I/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalRight_I/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalRight_I/Digital/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalRight_I/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight_I/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight_I/Digital/Slide3.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/ProximalRight_I/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalRight_I/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalRight_I/Real/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalRight_I/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight_I/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight_I/Real/Slide3.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -197,14 +197,14 @@ const database = {
         },
         "tab5": {   //proximal left
             "digital": [
-                "./Guide_Images/1_PrepPieces/ProximalLeft_I/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft_I/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft_I/Digital/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalLeft_I/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft_I/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft_I/Digital/Slide3.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/ProximalLeft_I/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft_I/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft_I/Real/Slide3.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalLeft_I/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft_I/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft_I/Real/Slide3.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -214,37 +214,37 @@ const database = {
         },
         "tab6": {   //pulley
             "digital": [
-                "./Guide_Images/1_PrepPieces/Pulley/Digital/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Pulley/Digital/Slide4.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/Pulley/Real/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Pulley/Real/Slide4.PNG"
             ],
             "text": ["Push bearing in the spool."]
         },
         "tab7": {   //DC motor
             "digital": [
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide4.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide5.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide6.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide7.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide8.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide9.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide10.PNG"
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide4.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide5.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide6.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide7.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide8.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide9.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide10.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide4.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide5.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide6.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide7.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide8.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide9.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide10.PNG"
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide4.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide5.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide6.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide7.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide8.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide9.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide10.PNG"
             ],
             "text": [
                 "Cut the tendon to obtain a 25cmm long piece.",
@@ -263,10 +263,10 @@ const database = {
     "T_prep": {
         "tab1": {   //fingertip
             "real": [
-                "./Guide_Images/1_PrepPieces/Fingertip_T/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip_T/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip_T/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/Fingertip_T/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Fingertip_T/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip_T/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip_T/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/Fingertip_T/Slide4.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -277,15 +277,15 @@ const database = {
         }, //DONE
         "tab2": {   //medial right
             "real": [
-                "./Guide_Images/1_PrepPieces/MedialRight_T/Slide5.PNG"
+                "../Guide_Images/1_PrepPieces/MedialRight_T/Slide5.PNG"
             ],
             "text": ["File to remove small irregularities."]
         }, // DONE
         "tab3": {   //medial left
             "real": [
-                "./Guide_Images/1_PrepPieces/MedialLeft_T/Slide6.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft_T/Slide7.PNG",
-                "./Guide_Images/1_PrepPieces/MedialLeft_T/Slide8.PNG"
+                "../Guide_Images/1_PrepPieces/MedialLeft_T/Slide6.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft_T/Slide7.PNG",
+                "../Guide_Images/1_PrepPieces/MedialLeft_T/Slide8.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -295,7 +295,7 @@ const database = {
         }, // DONE
         "tab4": {   //proximal right
             "real": [
-                "./Guide_Images/1_PrepPieces/ProximalRight_T/Slide12.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalRight_T/Slide12.PNG",
             ],
             "text": [
                 "Place both screws.",
@@ -303,9 +303,9 @@ const database = {
         }, //DONE
         "tab5": {   //proximal left
             "real": [
-                "./Guide_Images/1_PrepPieces/ProximalLeft_T/Slide9.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft_T/Slide10.PNG",
-                "./Guide_Images/1_PrepPieces/ProximalLeft_T/Slide11.PNG"
+                "../Guide_Images/1_PrepPieces/ProximalLeft_T/Slide9.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft_T/Slide10.PNG",
+                "../Guide_Images/1_PrepPieces/ProximalLeft_T/Slide11.PNG"
             ],
             "text": [
                 "Add two M2 inserts as shown in tutorial.",
@@ -315,43 +315,43 @@ const database = {
         }, // DONE
         "tab6": {   //pulley
             "digital": [
-                "./Guide_Images/1_PrepPieces/Pulley/Digital/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Pulley/Digital/Slide4.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/Pulley/Real/Slide4.PNG"
+                "../Guide_Images/1_PrepPieces/Pulley/Real/Slide4.PNG"
             ],
             "text": ["Push bearing in the spool."]
         }, // DONE
         "tab7": {   //DC motor
             "digital": [
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide4.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide5.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide6.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide7.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide8.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide9.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Digital/Slide10.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Frame1.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Frame8.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Frame9.PNG"
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide4.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide5.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide6.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide7.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide8.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide9.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Digital/Slide10.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Frame1.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Frame8.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Frame9.PNG"
             ],
             "real": [
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide1.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide2.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide3.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide4.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide5.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide6.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide7.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide8.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide9.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Slide10.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Frame1.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Frame8.PNG",
-                "./Guide_Images/1_PrepPieces/DCMotor/Real/Frame9.PNG"
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide1.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide2.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide3.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide4.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide5.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide6.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide7.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide8.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide9.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Slide10.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Frame1.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Frame8.PNG",
+                "../Guide_Images/1_PrepPieces/DCMotor/Real/Frame9.PNG"
             ],
             "text": [
                 "Cut the tendon to obtain a 25cmm long piece.",
@@ -373,38 +373,38 @@ const database = {
     "assemble": {
         "tab1": {   //assemble components
             "digital": [
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide1.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide2.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide3.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide4.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide5.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide7.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide8.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide9.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide10.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide11.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide12.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide13.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide14.png",
-                "./Guide_Images/2_AssembleFinger/Components/Digital/Slide15.png"
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide1.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide2.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide3.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide4.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide5.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide7.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide8.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide9.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide10.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide11.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide12.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide13.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide14.png",
+                "../Guide_Images/2_AssembleFinger/Components/Digital/Slide15.png"
             ],
             "real": [
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide1.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide2.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide3.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide4.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide5.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide7.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide8.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide9.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide10.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide11.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide12.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide13.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide14.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide15.png"
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide1.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide2.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide3.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide4.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide5.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide7.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide8.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide9.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide10.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide11.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide12.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide13.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide14.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide15.png"
             ],
             "text": [
                 "Hold the spring in position with the fingertip and pass a 10mm metal pin through.",
@@ -426,22 +426,22 @@ const database = {
         }, // DONE
         "tab2": {   //tendon routing
             "digital": [
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame129.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame130.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame131.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame132.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame133.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame136.png"
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame129.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame130.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame131.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame132.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame133.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame136.png"
             ],
             "real": [
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide1.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide2.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide3.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide4.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide5.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide7.png"
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide1.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide2.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide3.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide4.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide5.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide7.png"
             ],
             "text": [
                 "Current build",
@@ -455,26 +455,26 @@ const database = {
         }, // DONE
         "tab3": {   //fingertip padding
             "digital": [
-                "./Guide_Images/2_AssembleFinger/Padding/Slide1.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide2.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide3.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide4.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide5.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide7.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide8.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide9.png"
+                "../Guide_Images/2_AssembleFinger/Padding/Slide1.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide2.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide3.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide4.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide5.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide7.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide8.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide9.png"
             ],
             "real": [
-                "./Guide_Images/2_AssembleFinger/Padding/Slide1.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide2.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide3.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide4.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide5.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide7.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide8.png",
-                "./Guide_Images/2_AssembleFinger/Padding/Slide9.png"
+                "../Guide_Images/2_AssembleFinger/Padding/Slide1.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide2.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide3.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide4.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide5.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide7.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide8.png",
+                "../Guide_Images/2_AssembleFinger/Padding/Slide9.png"
             ],
             "text": [
                 "Cut the 3mm foam to obtain a rectangle of 25mm by 13mm.",
@@ -492,38 +492,38 @@ const database = {
     "I_assemble": {
         "tab1": {   //assemble components
             "digital": [
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide1.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide2.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide3.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide4.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide5.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide7.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide8.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide9.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide10.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide11.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide12.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide13.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide14.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Digital/Slide15.png"
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide1.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide2.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide3.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide4.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide5.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide7.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide8.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide9.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide10.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide11.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide12.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide13.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide14.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Digital/Slide15.png"
             ],
             "real": [
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide1.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide2.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide3.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide4.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide5.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide7.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Real/Slide8.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Real/Slide9.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Real/Slide10.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Real/Slide11.png",
-                "./Guide_Images/2_AssembleFinger/Components_I/Real/Slide12.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide13.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide14.png",
-                "./Guide_Images/2_AssembleFinger/Components/Real/Slide15.png"
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide1.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide2.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide3.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide4.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide5.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide7.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Real/Slide8.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Real/Slide9.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Real/Slide10.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Real/Slide11.png",
+                "../Guide_Images/2_AssembleFinger/Components_I/Real/Slide12.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide13.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide14.png",
+                "../Guide_Images/2_AssembleFinger/Components/Real/Slide15.png"
             ],
             "text": [
                 "Hold the spring in position with the fingertip and pass a 10mm metal pin through.",
@@ -545,22 +545,22 @@ const database = {
         }, // DONE
         "tab2": {   //tendon routing
             "digital": [
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame129.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame130.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame131.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame132.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame133.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Digital/Frame136.png"
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame129.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame130.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame131.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame132.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame133.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Digital/Frame136.png"
             ],
             "real": [
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide1.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide2.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide3.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide4.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide5.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide6.png",
-                "./Guide_Images/2_AssembleFinger/Tendon/Real/Slide7.png"
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide1.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide2.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide3.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide4.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide5.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide6.png",
+                "../Guide_Images/2_AssembleFinger/Tendon/Real/Slide7.png"
             ],
             "text": [
                 "Current build",
@@ -576,18 +576,18 @@ const database = {
     "metacarpal": {
         "tab1": {   //prep metacarpal
             "digital": [
-                "./Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide1.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide2.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide3.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide4.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide5.PNG"
+                "../Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide1.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide2.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide3.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide4.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal/Digital/Slide5.PNG"
             ],
             "real": [
-                "./Guide_Images/3_Metacarpal/Metacarpal/Real/Slide1.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal/Real/Slide2.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal/Real/Slide3.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal/Real/Slide4.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal/Real/Slide5.PNG"
+                "../Guide_Images/3_Metacarpal/Metacarpal/Real/Slide1.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal/Real/Slide2.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal/Real/Slide3.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal/Real/Slide4.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal/Real/Slide5.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -599,10 +599,10 @@ const database = {
         }, //DONE
         "tab2": {   //prep metacarpal branch
             "digital": [
-                "./Guide_Images/3_Metacarpal/MetacarpalBranch/Digital/Slide1.PNG"
+                "../Guide_Images/3_Metacarpal/MetacarpalBranch/Digital/Slide1.PNG"
             ],
             "real": [
-                "./Guide_Images/3_Metacarpal/MetacarpalBranch/Real/Slide1.PNG"
+                "../Guide_Images/3_Metacarpal/MetacarpalBranch/Real/Slide1.PNG"
             ],
             "text": [
                 "Place potentiometer as shown in tutorial."
@@ -610,24 +610,24 @@ const database = {
         }, // DONE
         "tab3": {   //assemble joint
             "digital": [
-                "./Guide_Images/3_Metacarpal/Joint/Digital/Slide1.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Digital/Slide2.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Digital/Slide3.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Digital/Slide4.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Digital/Slide5.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Digital/Slide6.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Digital/Slide7.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Digital/Slide8.PNG"
+                "../Guide_Images/3_Metacarpal/Joint/Digital/Slide1.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Digital/Slide2.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Digital/Slide3.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Digital/Slide4.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Digital/Slide5.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Digital/Slide6.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Digital/Slide7.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Digital/Slide8.PNG"
             ],
             "real": [
-                "./Guide_Images/3_Metacarpal/Joint/Real/Slide1.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Real/Slide2.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Real/Slide3.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Real/Slide4.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Real/Slide5.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Real/Slide6.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Real/Slide7.PNG",
-                "./Guide_Images/3_Metacarpal/Joint/Real/Slide8.PNG"
+                "../Guide_Images/3_Metacarpal/Joint/Real/Slide1.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Real/Slide2.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Real/Slide3.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Real/Slide4.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Real/Slide5.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Real/Slide6.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Real/Slide7.PNG",
+                "../Guide_Images/3_Metacarpal/Joint/Real/Slide8.PNG"
             ],
             "text": [
                 "File to remove any irregularities.",
@@ -644,18 +644,18 @@ const database = {
     "I_metacarpal": {
         "tab1": {   //prep metacarpal
             "digital": [
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide1.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide2.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide3.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide4.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide5.PNG"
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide1.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide2.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide3.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide4.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Digital/Slide5.PNG"
             ],
             "real": [
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide1.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide2.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide3.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide4.PNG",
-                "./Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide5.PNG"
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide1.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide2.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide3.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide4.PNG",
+                "../Guide_Images/3_Metacarpal/Metacarpal_I/Real/Slide5.PNG"
             ],
             "text": [
                 "File to remove small irregularities.",
@@ -667,10 +667,10 @@ const database = {
         }, // DONE
         "tab2": {   //prep metacarpal branch
             "digital": [
-                "./Guide_Images/3_Metacarpal/MetacarpalBranch_I/Digital/MetacarpalBranchDOC.PNG"
+                "../Guide_Images/3_Metacarpal/MetacarpalBranch_I/Digital/MetacarpalBranchDOC.PNG"
             ],
             "real": [
-                "./Guide_Images/3_Metacarpal/MetacarpalBranch_I/Real/Slide2.PNG"
+                "../Guide_Images/3_Metacarpal/MetacarpalBranch_I/Real/Slide2.PNG"
             ],
             "text": [
                 "Place potentiometer as shown in tutorial."
@@ -678,24 +678,24 @@ const database = {
         }, // DONE
         "tab3": {   //assemble joint
             "digital": [
-                "./Guide_Images/3_Metacarpal/Joint_I/Digital/Slide1.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Digital/Slide2.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Digital/Slide3.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Digital/Slide4.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Digital/Slide5.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Digital/Slide6.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Digital/Slide7.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Digital/Slide8.PNG"
+                "../Guide_Images/3_Metacarpal/Joint_I/Digital/Slide1.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Digital/Slide2.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Digital/Slide3.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Digital/Slide4.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Digital/Slide5.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Digital/Slide6.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Digital/Slide7.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Digital/Slide8.PNG"
             ],
             "real": [
-                "./Guide_Images/3_Metacarpal/Joint_I/Real/Slide1.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Real/Slide2.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Real/Slide3.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Real/Slide4.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Real/Slide5.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Real/Slide6.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Real/Slide7.PNG",
-                "./Guide_Images/3_Metacarpal/Joint_I/Real/Slide8.PNG"
+                "../Guide_Images/3_Metacarpal/Joint_I/Real/Slide1.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Real/Slide2.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Real/Slide3.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Real/Slide4.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Real/Slide5.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Real/Slide6.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Real/Slide7.PNG",
+                "../Guide_Images/3_Metacarpal/Joint_I/Real/Slide8.PNG"
             ],
             "text": [
                 "File to remove any irregularities.",
@@ -712,16 +712,16 @@ const database = {
     "wiring": {
         "tab1": {   //finger
             "real": [
-                "./Guide_Images/4_Wiring/Finger/Slide1.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide2.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide3.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide4.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide5.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide6.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide7.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide8.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide9.PNG",
-                "./Guide_Images/4_Wiring/Finger/Slide10.PNG"
+                "../Guide_Images/4_Wiring/Finger/Slide1.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide2.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide3.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide4.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide5.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide6.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide7.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide8.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide9.PNG",
+                "../Guide_Images/4_Wiring/Finger/Slide10.PNG"
             ],
             "text": [
                 "You should be careful how you wire each of the potentiometers to ensure each pin is connected correctly. It is conventional to use red for current (5V), black for ground (GND) and any other color for data pins. If you want to use different colors, you may, but make sure you won’t mix up which cable leads to what as that could cause errors in the electrical circuit.",
@@ -738,11 +738,11 @@ const database = {
         }, //
         "tab2": {   //metacarpal
             "real": [
-                "./Guide_Images/4_Wiring/Metacarpal/Slide11.PNG",
-                "./Guide_Images/4_Wiring/Metacarpal/Slide12.PNG",
-                "./Guide_Images/4_Wiring/Metacarpal/Slide13.PNG",
-                "./Guide_Images/4_Wiring/Metacarpal/Slide14.PNG",
-                "./Guide_Images/4_Wiring/Metacarpal/Slide15.PNG"
+                "../Guide_Images/4_Wiring/Metacarpal/Slide11.PNG",
+                "../Guide_Images/4_Wiring/Metacarpal/Slide12.PNG",
+                "../Guide_Images/4_Wiring/Metacarpal/Slide13.PNG",
+                "../Guide_Images/4_Wiring/Metacarpal/Slide14.PNG",
+                "../Guide_Images/4_Wiring/Metacarpal/Slide15.PNG"
             ],
             "text": [
                 "Cut 3 15cm long wires (0.5mm diameter) and strip the ends.",
@@ -754,11 +754,11 @@ const database = {
         },
         "tab3": {   //DC motor
             "real": [
-                "./Guide_Images/4_Wiring/DCMotor/Frame1.PNG",
-                "./Guide_Images/4_Wiring/DCMotor/Frame8.PNG",
-                "./Guide_Images/4_Wiring/DCMotor/Frame9.PNG",
-                "./Guide_Images/4_Wiring/DCMotor/Frame10.PNG",
-                "./Guide_Images/4_Wiring/DCMotor/Frame11.PNG",
+                "../Guide_Images/4_Wiring/DCMotor/Frame1.PNG",
+                "../Guide_Images/4_Wiring/DCMotor/Frame8.PNG",
+                "../Guide_Images/4_Wiring/DCMotor/Frame9.PNG",
+                "../Guide_Images/4_Wiring/DCMotor/Frame10.PNG",
+                "../Guide_Images/4_Wiring/DCMotor/Frame11.PNG",
             ],
             "text": [
                 "Using tape, fix the metacarpal completely flexed.",
@@ -772,7 +772,7 @@ const database = {
     "T_CMC": {
         "tab1": { //Main
             "real": [
-                "./Guide_Images/5_Thumb/1_CMC/Prepare/Frame9.PNG",
+                "../Guide_Images/5_Thumb/1_CMC/Prepare/Frame9.PNG",
             ],
             "text": [
                 "Push 8mm metal pin in."
@@ -780,8 +780,8 @@ const database = {
         }, // DONE
         "tab2": { //Link
             "real": [
-                "./Guide_Images/5_Thumb/1_CMC/Prepare/Frame2.PNG",
-                "./Guide_Images/5_Thumb/1_CMC/Prepare/Frame3.PNG"
+                "../Guide_Images/5_Thumb/1_CMC/Prepare/Frame2.PNG",
+                "../Guide_Images/5_Thumb/1_CMC/Prepare/Frame3.PNG"
             ],
             "text": [
                 "Place potentiometer as shown in tutorial.",
@@ -790,11 +790,11 @@ const database = {
         }, // DONE
         "tab3": { //to palm
             "real": [
-                "./Guide_Images/5_Thumb/1_CMC/Prepare/Frame4.PNG",
-                "./Guide_Images/5_Thumb/1_CMC/Prepare/Frame5.PNG",
-                "./Guide_Images/5_Thumb/1_CMC/Prepare/Frame6.PNG",
-                "./Guide_Images/5_Thumb/1_CMC/Prepare/Frame7.PNG",
-                "./Guide_Images/5_Thumb/1_CMC/Prepare/Frame8.PNG",
+                "../Guide_Images/5_Thumb/1_CMC/Prepare/Frame4.PNG",
+                "../Guide_Images/5_Thumb/1_CMC/Prepare/Frame5.PNG",
+                "../Guide_Images/5_Thumb/1_CMC/Prepare/Frame6.PNG",
+                "../Guide_Images/5_Thumb/1_CMC/Prepare/Frame7.PNG",
+                "../Guide_Images/5_Thumb/1_CMC/Prepare/Frame8.PNG",
             ],
             "text": [
                 "Place potentiometer as shown in tutorial.",
@@ -808,20 +808,20 @@ const database = {
     "T_assemble": {
         "tab1": {   //assemble components
             "real": [
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide13.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide14.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide15.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide16.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide17.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide18.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide19.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide20.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide21.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide22.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide23.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide24.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Slide25.png",
-                "./Guide_Images/2_AssembleFinger/Thumb/Frame1.png"
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide13.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide14.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide15.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide16.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide17.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide18.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide19.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide20.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide21.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide22.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide23.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide24.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Slide25.png",
+                "../Guide_Images/2_AssembleFinger/Thumb/Frame1.png"
             ],
             "text": [
                 "Hold the spring in position with the fingertip and pass a 10mm metal pin through.",
@@ -841,13 +841,13 @@ const database = {
         }, // DONE
         "tab2": {   //CMC joint
             "real": [
-                "./Guide_Images/5_Thumb/1_CMC/Assemble/Frame1.png",
-                "./Guide_Images/5_Thumb/1_CMC/Assemble/Frame8.png",
-                "./Guide_Images/5_Thumb/1_CMC/Assemble/Frame9.png",
-                "./Guide_Images/5_Thumb/1_CMC/Assemble/Frame10.png",
-                "./Guide_Images/5_Thumb/1_CMC/Assemble/Frame11.png",
-                "./Guide_Images/5_Thumb/1_CMC/Assemble/Frame12.png",
-                "./Guide_Images/5_Thumb/1_CMC/Assemble/Frame13.png"
+                "../Guide_Images/5_Thumb/1_CMC/Assemble/Frame1.png",
+                "../Guide_Images/5_Thumb/1_CMC/Assemble/Frame8.png",
+                "../Guide_Images/5_Thumb/1_CMC/Assemble/Frame9.png",
+                "../Guide_Images/5_Thumb/1_CMC/Assemble/Frame10.png",
+                "../Guide_Images/5_Thumb/1_CMC/Assemble/Frame11.png",
+                "../Guide_Images/5_Thumb/1_CMC/Assemble/Frame12.png",
+                "../Guide_Images/5_Thumb/1_CMC/Assemble/Frame13.png"
             ],
             "text": [
                 "Holding two springs in place, slide in a metal pin.",
@@ -862,14 +862,14 @@ const database = {
         },
         "tab3": {   //DC motors
             "real": [
-                "./Guide_Images/5_Thumb/2_DCMotor/Frame1.png",
-                "./Guide_Images/5_Thumb/2_DCMotor/Frame8.png",
-                "./Guide_Images/5_Thumb/2_DCMotor/Frame9.png",
-                "./Guide_Images/5_Thumb/2_DCMotor/Frame10.png",
-                "./Guide_Images/5_Thumb/2_DCMotor/Frame11.png",
-                "./Guide_Images/5_Thumb/2_DCMotor/Frame12.png",
-                "./Guide_Images/5_Thumb/2_DCMotor/Frame13.png",
-                "./Guide_Images/5_Thumb/2_DCMotor/Frame14.png"
+                "../Guide_Images/5_Thumb/2_DCMotor/Frame1.png",
+                "../Guide_Images/5_Thumb/2_DCMotor/Frame8.png",
+                "../Guide_Images/5_Thumb/2_DCMotor/Frame9.png",
+                "../Guide_Images/5_Thumb/2_DCMotor/Frame10.png",
+                "../Guide_Images/5_Thumb/2_DCMotor/Frame11.png",
+                "../Guide_Images/5_Thumb/2_DCMotor/Frame12.png",
+                "../Guide_Images/5_Thumb/2_DCMotor/Frame13.png",
+                "../Guide_Images/5_Thumb/2_DCMotor/Frame14.png"
             ],
             "text": [
                 "Slide the right motor into place, the top of the axle should fit into the hole, and the wires orientated towards the left.",
@@ -884,19 +884,19 @@ const database = {
         },
         "tab4": {   //Tendon
             "real": [
-                "./Guide_Images/5_Thumb/3_Tendon/Frame1.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame8.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame9.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame10.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame11.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame12.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame13.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame14.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame15.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame16.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame17.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame18.png",
-                "./Guide_Images/5_Thumb/3_Tendon/Frame19.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame1.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame8.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame9.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame10.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame11.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame12.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame13.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame14.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame15.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame16.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame17.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame18.png",
+                "../Guide_Images/5_Thumb/3_Tendon/Frame19.png",
             ],
             "text": [
                 "Both tendons should come out as shown on the picture, behind the metal bar. Make sure they aren't twisted.",
@@ -916,17 +916,17 @@ const database = {
         },
         "tab5": {   //Wiring
             "real": [
-                "./Guide_Images/5_Thumb/4_Wiring/Frame1.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame8.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame9.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame10.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame11.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame12.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame13.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame14.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame15.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame16.png",
-                "./Guide_Images/5_Thumb/4_Wiring/Frame17.png"
+                "../Guide_Images/5_Thumb/4_Wiring/Frame1.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame8.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame9.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame10.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame11.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame12.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame13.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame14.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame15.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame16.png",
+                "../Guide_Images/5_Thumb/4_Wiring/Frame17.png"
             ],
             "text": [
                 "Solder three 30cm long 0.5mm diameter wires to the three pins of the first potentiometer.",
@@ -944,9 +944,9 @@ const database = {
         },
         "tab6": {   //Padding
             "real": [
-                "./Guide_Images/5_Thumb/5_Padding/Frame1.png",
-                "./Guide_Images/5_Thumb/5_Padding/Frame8.png",
-                "./Guide_Images/5_Thumb/5_Padding/Frame9.png"
+                "../Guide_Images/5_Thumb/5_Padding/Frame1.png",
+                "../Guide_Images/5_Thumb/5_Padding/Frame8.png",
+                "../Guide_Images/5_Thumb/5_Padding/Frame9.png"
             ],
             "text": [
                 "Cut a 3mm thick foam rectangle with the dimensions shown above.",
@@ -958,14 +958,14 @@ const database = {
     "palm_prep": {
         "tab1": { //Main
             "real": [
-                "./Guide_Images/6_Palm/Prepare/Frame1.png",
-                "./Guide_Images/6_Palm/Prepare/Frame8.png",
-                "./Guide_Images/6_Palm/Prepare/Frame9.png",
-                "./Guide_Images/6_Palm/Prepare/Frame10.png",
-                "./Guide_Images/6_Palm/Prepare/Frame11.png",
-                "./Guide_Images/6_Palm/Prepare/Frame12.png",
-                "./Guide_Images/6_Palm/Prepare/Frame13.png",
-                "./Guide_Images/6_Palm/Prepare/Frame14.png"
+                "../Guide_Images/6_Palm/Prepare/Frame1.png",
+                "../Guide_Images/6_Palm/Prepare/Frame8.png",
+                "../Guide_Images/6_Palm/Prepare/Frame9.png",
+                "../Guide_Images/6_Palm/Prepare/Frame10.png",
+                "../Guide_Images/6_Palm/Prepare/Frame11.png",
+                "../Guide_Images/6_Palm/Prepare/Frame12.png",
+                "../Guide_Images/6_Palm/Prepare/Frame13.png",
+                "../Guide_Images/6_Palm/Prepare/Frame14.png"
             ],
             "text": [
                 "File to remove any irregularities.",
@@ -980,20 +980,20 @@ const database = {
         },
         "tab2": { //ADC block
             "real": [
-                "./Guide_Images/6_Palm/ADC_Block/Frame1.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame8.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame9.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame10.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame11.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame12.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame13.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame14.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame15.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame16.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame17.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame18.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame19.png",
-                "./Guide_Images/6_Palm/ADC_Block/Frame20.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame1.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame8.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame9.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame10.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame11.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame12.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame13.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame14.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame15.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame16.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame17.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame18.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame19.png",
+                "../Guide_Images/6_Palm/ADC_Block/Frame20.png",
             ],
             "text": [
                 "The color of the wires are essential in this section. Connect 15cm long 0.5mm diameter wires of the correct colors to the pins of an ADC module.",
