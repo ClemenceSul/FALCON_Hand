@@ -1,8 +1,8 @@
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
 
-![Alt text](FALCONHand.JPG)
-
 This Fully Actuated Life-like Compact OpeN-source (FALCON) hand was designed for research and bridges the gap between complex systems and expensive robots. It’s finger includes an underactuated mechanism, which grants it an enveloping behaviour, ideal when grasping objects. With it’s full actuation, the hand can perform complex movements, easily controlled with the associated library. The FALCON hand is accessible to all, with public project files and detailed documentation, thanks to which anyone can replicate or adapt the hand to easily fulfil their needs.
+
+![Alt text](FALCONHand.JPG)
 
 The FALCON Hand is intrinsically actuated and integrates itself well with other robotic entities. It has 20 degrees of freedom and presents comparable grasping capabilities to a human. You can find some videos demonstrating the FALCON hand's motion in the folder Videos.
 
