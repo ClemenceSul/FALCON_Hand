@@ -1019,6 +1019,192 @@ const database = {
                 "Repeat with the black, orange and yellow wires."
             ]
         }
+    }, // DONE
+    "palm_assemble": {
+        "tab1": { //Add fingers
+            "real": [
+                "../Guide_Images/6_Palm/AddFingers/1.png",
+                "../Guide_Images/6_Palm/AddFingers/2.png",
+                "../Guide_Images/6_Palm/AddFingers/3.png",
+                "../Guide_Images/6_Palm/AddFingers/4.png",
+                "../Guide_Images/6_Palm/AddFingers/5.png",
+                "../Guide_Images/6_Palm/AddFingers/6.png",
+                "../Guide_Images/6_Palm/AddFingers/7.png",
+                "../Guide_Images/6_Palm/AddFingers/8.png",
+                "../Guide_Images/6_Palm/AddFingers/9.png",
+                "../Guide_Images/6_Palm/AddFingers/10.png",
+                "../Guide_Images/6_Palm/AddFingers/11.png",
+                "../Guide_Images/6_Palm/AddFingers/12.png",
+                "../Guide_Images/6_Palm/AddFingers/13.png",
+                "../Guide_Images/6_Palm/AddFingers/14.png",
+                "../Guide_Images/6_Palm/AddFingers/15.png",
+                "../Guide_Images/6_Palm/AddFingers/16.png",
+                "../Guide_Images/6_Palm/AddFingers/17.png",
+                "../Guide_Images/6_Palm/AddFingers/18.png",
+                "../Guide_Images/6_Palm/AddFingers/19.png"
+            ],
+            "text": [
+                "Cut a 25 cm long tendon.",
+                "Unscrew the bottom screw until you can reach behind the washer. Make sure to hold both bottom pieces together to they don't move.",
+                "Pass the tendon behind the washer as shown and cut off the excess.",
+                "Thread the tendon into the hole next to the bottom screw, and grab it from the exit as shown.",
+                "Push the excess tendon into the hole as well.",
+                "Cut another 25 cm long tendon.",
+                "Fold the tendon in half and pass it between both springs to the back of the finger.",
+                "Unscrew the screw located at the back of the metacarpal joint, and pass the tendon behind the washer before screwing it back in.",
+                "Grab the right side of the tendon and pass it through the hole as shown.",
+                "Grab the other side and pass through the left hole. Make sure not to trap the end of the spring.",
+                "Repeat for all other fingers.",
+                "Place the finger on the left most support. Make sure the wires and tendons are above the palm.",
+                "Slide a metal dowel through the hole until it reaches the back face.",
+                "Push the wires through the hole, ensuring they aren't strained when the finger is fully extended.",
+                "Use a hot glue gun to hold the wires in place.",
+                "Repeat the process for the ring finger. This finger shouldn't be able to rotate.",
+                "Repeat the process for the middle finger.",
+                "Final result"
+            ]
+        }, // DONE
+        "tab2": { //Add Knuckes
+            "real": [
+                "../Guide_Images/6_Palm/Assembly/Slide1.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide2.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide3.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide4.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide5.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide6.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide7.PNG"
+            ],
+            "text": [
+                "Place a potentiometer into the dedicated slot.",
+                "Repeat in the other 3 slots.",
+                "Cover the second with tape, and solder wires appropriately for the other 3.",
+                "Arrange the wires so they come downwards and cover them with tape.",
+                "What the prepared knucked piece should look like.",
+                "Place the knuckles as shown, making sure the potentiometers fit into the finger's metacarpals.",
+                "Screw the knuckles in with 3 screws."
+            ]
+        },
+        "tab3": { //connect potentiometers
+            "real": [
+                "../Guide_Images/6_Palm/Assembly/Slide8.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide9.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide10.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide11.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide12.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide13.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide14.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide15.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide16.PNG"
+            ],
+            "text": [
+                "Place the ADC Block on the back of the palm.",
+                "Place the twisted wires from each finger as shown, make sure they aren't strained when the finger bends and glue them down.",
+                "Untwist the wires and retwist the ground wires and the power wires seperately for the first finger you will work on.",
+                "Seperate one of the data strands from the ADC block and untwist the wires.",
+                "Grab one of the data strands from the ADC module you just untwisted and one of the data wired from the finger. Cut off some excess.",
+                "Strip the ends, twist them together, solder and cover with tape.",
+                "Fold the wires away.",
+                "Repeat with the finger's other data wires. Then tape them all together.",
+                "Repeat the process for the fingers."
+            ]
+        },
+        "tab4": { //Add thumb
+            "real": [
+                "../Guide_Images/6_Palm/Assembly/Slide17.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide18.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide19.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide20.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide21.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide22.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide23.PNG"
+            ],
+            "text": [
+                "Place a potentiometer in the palm support and solder wires on.",
+                "Slide a metal dowel into the thumb support.",
+                "Place the thumb, ensuring the potentiometer fits into the thumb's CMC. Then place the thumb support, pushing the metal pin until it touches the potentiometer.",
+                "Screw in two screw into the thumb support from the back of the palm.",
+                "Pass the twisted wires into the hole and glue them into place, ensuring they don't get strained when the thumb rotates.",
+                "Twist the other two thumb wires together and glue them onto the back of the palm, ensuring they don't get strained when the thumb moves.",
+                "Twist the ground wires and the power wires together.",
+            ]
+        },
+        "tab5": { //Final wiring
+            "real": [
+                "../Guide_Images/6_Palm/Assembly/Slide24.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide25.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide26.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide27.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide28.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide29.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide30.PNG",
+                "../Guide_Images/6_Palm/Assembly/Slide31.PNG"
+            ],
+            "text": [
+                "Get a wire with an exposed end.",
+                "Cut one of the twisted wire group about 2cm from the palm.",
+                "Strip the ends and twist them all together.",
+                "Solder the wire with the twisted end, and cover with tape.",
+                "Repeat with all the other groups of wires.",
+                "Pass all the wires between the two servos at the bottom of the palm, and tape them together.",
+                "Place each of the finger's DC wires as shown, ensuring they don't get strained when the finger bends.",
+                "To finish, solder each of the remaining thin wires to another with a crimped end."
+            ]
+        }
+    },
+    "palm_tendon": {
+        "tab1": { //Digits
+            "real": [
+                "../Guide_Images/not_ready.png"
+            ],
+            "text": [
+                " "
+            ]
+        },
+        "tab2": { //Thumb
+            "real": [
+                "../Guide_Images/not_ready.png"
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide1.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide2.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide3.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide4.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide5.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide6.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide7.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide8.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide9.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide10.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide11.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide12.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide13.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide14.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide15.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide16.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide17.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide18.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide19.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide20.PNG",
+                // "../Guide_Images/6_Palm/MCPTendonThumb/Slide21.PNG"
+            ],
+            "text": [
+                " "
+                // "Take the long servo arm and cut to achieve the shape shown above.",
+                // "Trim the corners",
+                // "Pass the thumb tendon through the servo arm in the furthest hole.",
+                // "Place on the servo as shown.",
+                // "Screw in the small servo screw slightly, pass the tendon around it and tighten.",
+                // "Cut off the excess tendon.",
+                // "Cut another 25cm long tendon.",
+                // "Pass through the hole as shown.",
+                // "Pass through the servo bar and make a knot.",
+                // "Slightly unscrew the screw, pass the tendon around it then tighten slightly. The tendon should be able to glide.",
+                // "Pass the other end through the servo bar and make another knot.",
+                // "Position the thumb as shown, place the servo bar on the servo, then pull on the free end until it's tight.",
+                // "Using the servo screw, attach the tendon.",
+                // "Cut off the excess.",
+                // "Cut another 25cm long tendon.",
+                // "Pass as shown."
+            ]
+        }
     }
 };
 
